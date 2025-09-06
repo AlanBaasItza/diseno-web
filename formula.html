@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Completo</title>
+</head>
+<body>
+    <headder>
+        <h1>INFORMACI&Oacute;N GENERAL</h1>
+    </headder>
+    <form name="Informacion General" method="post" enctype="multipart/form-data">
+        
+        <p>Nombre:</p>
+        <input type="text" name="txt_nombre"><br>
+
+        <p>Apellido:</p>
+        <input type="text" name="txt_apellido"><br>
+
+        <p>Fecha de nacimiento:</p>
+        <input type="date" name="dt_fecha"><br>
+
+        <p>Pa&iacute;s de origen&#58;</p>
+        <select name="slct_pais">
+            <option value="">Seleccione</option>
+            <option value="mx">México</option>
+            <option value="es">España</option>
+            <option value="ar">Argentina</option>
+            <option value="co">Colombia</option>
+        </select><br>
+
+        <p>D&iacute;as de estancia (1-180)&#58;</p>
+        <input type="number" name="nmb_dias" min="1" max="180"><br><br>
+        
+        <p>Estado civil&#58;</p>
+        <input type="radio" id="rd_Soltero" name="rd_estado" value="Soltero">
+        <label for="rd_Soltero">Soltero</label><br>
+        <input type="radio" id="rd_Casado" name="rd_estado" value="Casado">
+        <label for="rd_Casado">Casado</label><br>
+        <input type="radio" id="rd_UnionLibre" name="rd_estado" value="Union Libre">
+        <label for="rd_UnionLibre">Union Libre</label><br>
+        <input type="radio" id="rd_Separado" name="rd_estado" value="Separado">
+        <label for="rd_Separado">Separado</label><br>
+        <input type="radio" id="rd_Divorciado" name="rd_estado" value="Divorciado">
+        <label for="rd_Divorciado">Divorciado</label><br>
+        <input type="radio" id="rd_Viudo" name="rd_estado" value="Viudo">
+        <label for="rd_Viudo">Viudo</label>
+        <br><br>
+
+        <!-- 4 Casillas de selección -->
+        <label>Intereses:</label><br>
+        <input type="checkbox" id="musica" name="intereses" value="musica">
+        <label for="musica">Música</label>
+        <input type="checkbox" id="deporte" name="intereses" value="deporte">
+        <label for="deporte">Deporte</label>
+        <input type="checkbox" id="lectura" name="intereses" value="lectura">
+        <label for="lectura">Lectura</label>
+        <input type="checkbox" id="viajes" name="intereses" value="viajes">
+        <label for="viajes">Viajes</label>
+        <br><br>
+
+        <!-- 1 Campo de tipo número -->
+        
+
+        <!-- 1 Campo de tipo archivo -->
+        <p>Subir archivo:</p>
+        <input type="file" id="archivo" name="archivo"><br><br>
+
+        <!-- 2 Campos de claves -->
+        <p>Contraseña:</p>
+        <input type="password" id="clave1" name="clave1"><br><br>
+
+        <p>Repetir Contraseña:</p>
+        <input type="password" id="clave2" name="clave2"><br><br>
+
+        <p>Correo electrónico:</p>
+        <input type="email" id="email" name="email"><br><br>
+
+        <p>Comentarios:</p><br>
+        <textarea name="comentarios" rows="4" cols="40"></textarea><br><br>
+        
+        <button type="submit">Enviar</button>
+        
+        <button type="reset">Restablecer</button>
+    </form>
+</body>
+</html>
