@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@media only screen and (max-width: 600px){
+
 html { box-sizing: border-box;}
 *,
 *::before,
@@ -40,7 +42,7 @@ ul{
     border-top: 1px solid #efefef;
 }
 
-.nav ul {
+.nav-ul {
     background-color: #ff383f;
     margin: 0 ;
 }
@@ -77,4 +79,5 @@ ul{
 .container {
     padding: 2em 2rem;
     background-color: #ffffff;
+}
 }
