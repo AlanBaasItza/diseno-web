@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-@media only screen and (max-width: 600px){
+/* --------------------------------------------------
+        General basic settings                              
+ ----------------------------------------------------*/
 
 html { box-sizing: border-box;}
 *,
@@ -20,6 +22,11 @@ ul{
 }
 
 .wrapper { background-color: #ff3b3f;}
+
+/* ------------------------------------------------------------------
+      CSS properties for mobile devices (smaller than 640 px)            
+       + Arrange everything in one column below each other                                               
+-------------------------------------------------------------------- */
 
 .header {
     text-align: center;
@@ -79,5 +86,4 @@ ul{
 .container {
     padding: 2em 2rem;
     background-color: #ffffff;
-}
 }
