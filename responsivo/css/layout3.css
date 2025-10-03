@@ -74,17 +74,17 @@ ul {
 }
 
 .nav-ul a:link, .nav-ul a:visited {
-    color: #fff;
+    color: #ffffff;
 }
 
 .nav-ul a:hover, .nav-ul a:focus, .nav-ul a:active {
-    background-color: #000;
+    background-color: #000000;
     color: #efefef;
 }
 
 .nav-active {
-    color: #000;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .container {
@@ -130,7 +130,7 @@ ul {
         overflow: hidden;
     }
     .nav-li {
-        float: left;
+        
         display: inline-block;
         border: none;
         width: auto;
