@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <title>Registro</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+</head>
+<body>
+   <form action="" name="frm_datos">
+      <table align="center">
+         <tr>
+			<td>Nombre:</td>
+			<td><input type="text" name="txt_nombre" value="escribe tu nombre" size="20" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td>Edad:</td>
+			<td><input type="number" name="nmbr_edad" min="0" max="100"></td>
+		</tr>
+		<tr>
+			<td>Estado civil</td>
+			<td>
+			<select name="slct_estado" size="1">
+			<option value="1" selected>soltero</option>
+			<option value="2">casado</option>
+			<option value="3">divorciado</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Ocupaci&oacute;n:</td>
+			<td>
+			<input type="radio" name="rd_ocupacion" value="estudiante">Estudiante<br>
+			<input type="radio" name="rd_ocupacion" value="empleado">Empleado<br>
+			<input type="radio" name="rd_ocupacion" value="profesor">Profesor
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Pasatiempos:</td>
+			<td>
+			<input type="checkbox" name="chk_pasatiempo" value="leer">Leer<br>
+			<input type="checkbox" name="chk_pasatiempo" value="viajar">Viajar<br>
+			<input type="checkbox" name="chk_pasatiempo" value="bailar">Bailar
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="button" name="btn_enviar" id="btn_enviar" value="Enviar"></td>
+		</tr>
+	</table>
+	</form>
+	<p align="center">
+	<a href="javascript:alert('¡Hola esta es una prueba!')">Un enlace con código</a>
+	</p>		
+	<script src="scripts/archivo.js"></script>    
+</body>
+</html>
